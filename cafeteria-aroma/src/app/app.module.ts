@@ -3,7 +3,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { NavbbarComponent } from './features/landing/components/navbbar/navbbar.component';
 import { NavbarComponent } from './features/landing/components/navbar/navbar.component';
 import { HeroComponent } from './features/landing/components/hero/hero.component';
 import { ProductosComponent } from './features/landing/components/productos/productos.component';
@@ -16,7 +15,6 @@ import { InicioComponent } from './features/landing/pages/inicio/inicio.componen
 @NgModule({
   declarations: [
     AppComponent,
-    NavbbarComponent,
     NavbarComponent,
     HeroComponent,
     ProductosComponent,

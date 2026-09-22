@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 
+
 @Component({
   selector: 'app-productos',
   standalone: false,
@@ -8,27 +9,34 @@ import { Component } from '@angular/core';
 })
 export class ProductosComponent {
 
-productos = [
-  {
-    nombre: 'Café Americano',
-    descripcion: 'Café filtrado con agua caliente, de sabor suave y aroma intenso.',
-    precio: 2.50,
-    imagen: 'https://i.blogs.es/139e0f/cafe-americano2/840_560.jpeg'
-  },
 
-  { 
-    nombre: 'Croissant',
-    descripcion: 'Delicioso croissant recién horneado, con mantequilla y un toque de dulzura.',
-    precio: 3.00,
-    imagen: 'https://www.recetasderechupete.com/wp-content/uploads/2019/01/croissant-casero.jpg'
-  },
+  productos = [
+    {
+      nombre: 'Café Americano',
+      descripcion: 'Café intenso preparado al momento.',
+      precio: 8,
+      imagen: 'https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80'
+    },
+    {
+      nombre: 'Croissant',
+      descripcion: 'Croissant artesanal recién horneado.',
+      precio: 7,
+      imagen: 'https://images.unsplash.com/photo-1555507036-ab1f4038808a?auto=format&fit=crop&w=600&q=80'
+    },
+    {
+      nombre: 'Cheesecake',
+      descripcion: 'Cheesecake cremoso con frutos rojos.',
+      precio: 12,
+      imagen: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&fit=crop&w=600&q=80'
+    },
+    {
+      nombre: 'Frappé',
+      descripcion: 'Bebida fría de café y chocolate.',
+      precio: 11,
+      imagen: 'https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=600&q=80'
+    }
+  ];
 
-  { 
-    nombre: 'Té Verde',
-    descripcion: 'Té verde de alta calidad, con propiedades antioxidantes y un sabor refrescante.',
-    precio: 2.00,
-    imagen: 'https://www.verywellfit.com/thmb/0g1j6k5J7X8Z3z2n4v9x5y5y5yM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/green-tea-56a8f3e53df78cf772a1b6d2.jpg'
-  }
 
-];
 }
+

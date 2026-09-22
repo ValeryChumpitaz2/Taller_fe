@@ -1,24 +1,87 @@
 <section class="productos" id="productos">
-    <div class="encabezado">
-        <span> PARA DISFRUTAR </span>
-        <h2> Nuestros favoritos </h2>
-        <p> Descubre nuestra selección de productos más populares y deliciosos. </p>
-    </div>
-<div class="productos-grid">
-    @for ( producto of productos; track producto.nombre) {
-        <article class="producto-card">
-            <div class="producto-image">
-                <img [src]="producto.imagen" [alt]="producto.nombre">
-            </div>
-            <div class="producto-content">
-                <h3> {{ producto.nombre }} </h3>
-                <p> {{ producto.descripcion }} </p>
-                <div class="producto-footer">
-                    <strong> s/ {{producto.precio}}.00 </strong>
-                    <button> Ver Mas </button>
-                </div>
-            </div>
-        </article>
+
+
+  <div class="encabezado">
+
+
+    <span>PARA DISFRUTAR</span>
+
+
+    <h2>
+      Nuestros favoritos
+    </h2>
+
+
+    <p>
+      Descubre algunos de los productos favoritos
+      de nuestros clientes.
+    </p>
+
+
+  </div>
+
+
+  <div class="productos-grid">
+
+
+    @for (producto of productos; track producto.nombre) {
+
+
+      <article class="producto-card">
+
+
+        <div class="producto-image">
+
+
+          <img
+            [src]="producto.imagen"
+            [alt]="producto.nombre"
+          >
+
+
+        </div>
+
+
+        <div class="producto-content">
+
+
+          <h3>
+            {{ producto.nombre }}
+          </h3>
+
+
+          <p>
+            {{ producto.descripcion }}
+          </p>
+
+
+          <div class="producto-footer">
+
+
+            <strong>
+              S/ {{ producto.precio }}.00
+            </strong>
+
+
+            <button>
+              Ver más
+            </button>
+
+
+          </div>
+
+
+        </div>
+
+
+      </article>
+
+
     }
-</div>
+
+
+  </div>
+
+
 </section>
+

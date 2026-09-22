@@ -1,0 +1,58 @@
+.contacto {
+  padding: 100px 24px;
+  background: white;
+}
+
+.contacto-container {
+  max-width: 1100px;
+  margin: auto;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
+.contacto span {
+  color: #b77945;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.contacto h2 {
+  font-size: 42px;
+  color: #2b2118;
+}
+
+.datos {
+  display: grid;
+  gap: 20px;
+}
+
+.datos div {
+  padding: 20px;
+  border: 1px solid #eee;
+  border-radius: 12px;
+}
+
+.datos strong {
+  color: #2b2118;
+}
+
+.datos p {
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #777;
+}
+
+@media (max-width: 700px) {
+
+  .contacto-container {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+
+
+
